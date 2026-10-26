@@ -35,4 +35,3 @@ console.log("mi objetivo es ser " + Objetivo);
 console.log("mi horario laborar es de " + horario);
 console.log("mi paga por hora es de " + Pago_por_hora + " pesos la hora");
 console.log("esta semana trabaje un total de " + horas_trabajadas + " horas trabajadas puff");
-

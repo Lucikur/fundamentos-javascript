@@ -9,6 +9,14 @@ const calificacion = 85;
 let resultado = "";
 const caducidad = "si"
 
+function totalH(){
+    let totalH = 0;
+    if (horas_trabajadas => 1){
+        totalH = (horas_trabajadas * Pago_por_hora);
+    }  
+    return totalH;
+}
+
 function estado(){
     let estado = "";
     if (caducidad == "si"){
@@ -28,6 +36,7 @@ function resultados() {
         }
     return resultado;
   }
+console.log("se pago un tatal de " + totalH());
 console.log("el estado de la leche es "  + estado());
 console.log("el alumno ah " + resultados());
 console.log("mi nombre es " + nombre);

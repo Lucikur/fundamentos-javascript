@@ -1,14 +1,21 @@
 const proyectos = ["App SAT", "Tienda en línea", "Sistema de alertas", "Portafolio"];
+
 const proyectosinf = {
     nombre: "App sat",
     tecnologiasw: "reacnative",
     backend: "firebase"
 };
+
+
 const estudiantes = [
     { nombre: "Ana", calificacion: 85 },
     { nombre: "Luis", calificacion: 60 },
     { nombre: "Carlos", calificacion: 95 }
 ];
+
+for(let i = 0; i < estudiantes.length, i++ ){
+    console.log(estudiantes[i]);
+}
 
 function mostrarResultado(estudiantes){
     if (estudiantes.calificacion >= 70){
